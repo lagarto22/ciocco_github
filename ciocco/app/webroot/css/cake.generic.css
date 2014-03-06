@@ -1,0 +1,136 @@
+/**color verde mar caribe de alba**/
+
+/** General Style Info **/
+body {
+//*	background: #CCFFFF ; **/
+	color: #fff;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size:90%;
+	margin: 0;
+}
+/** Layout **/
+#container {
+	width: auto;
+	text-align: left;
+}
+#header{
+	padding: 10px 20px;
+	text-align: center;
+}
+#header h1 a {
+	color: #fff;
+	background: #99FFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+#content{
+	background: #fff;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+}
+#footer {
+	clear: both;
+	padding: 6px 10px;
+	text-align: right;
+}
+/** Forms **/
+.form {
+	font-family: Verdana; 
+	font-size:1em;
+/*	margin:1em; */
+	padding:1em;
+/*	width: 960px; centrar formulario*/
+	width: 500px;
+   margin: 0 auto;
+}
+.form p.formtitle{
+	color: #026475;
+	font-size:1.3em;
+	font-weight: bold;
+}
+.form fieldset{
+	width:40em;
+	border:1px solid #FFE545;
+	background-image: url(../img/Contact.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+.formfield{
+	width:30em;
+	padding:5px;
+}
+.formfield label{
+	display:block;
+	float:left;
+	width:12em;
+	padding:1px;
+	color:#C2A34F;
+	text-align:right;
+}/*centrado y color para los labels de los input*/
+.formfield input, .formfield  select{
+	padding:0.15em;
+	width:17em;
+	border:1px solid #ddd;
+	background:#FEFBAF;
+	
+	font-family: Verdana; 
+	font-size:1em;
+	
+	-moz-border-radius:0.4em;
+	-khtml-border-radius:0.4em;
+}/*fondo de color para los imput*/
+.formfield input:hover, input:focus {
+	border-color:#c5c5c5;
+	background:#f6f6f6;
+}/*cambia el color cuando pasa por arriba*/
+.required input {
+	border:1px solid #FBB829;
+}
+.form .submit input{
+	font-family: Verdana; 
+	font-size:1em;
+	margin-top: 0.3em;
+	
+}
+.formerror{
+	position:relative;
+	left:12.1em;
+	color:#FBB829;
+}
+.message{
+	text-align:center;
+}
+.checkbox
+{
+float: left;
+/*width: auto;*/
+width: 300px;
+padding-right: 30px;
+}
+.input radio
+{
+float: center;
+clear: both;
+padding-right: 50px;
+}
+.input text
+{
+float: left;
+margin: 0;
+}
+.input select
+{
+float: left;
+margin: 0;
+}
+.submit
+{
+
+padding-right: 30px;
+}
+.header
+{
+text-align: left;
+}

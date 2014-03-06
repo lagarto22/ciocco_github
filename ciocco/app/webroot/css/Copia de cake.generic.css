@@ -1,0 +1,76 @@
+/**color verde mar caribe de alba**/
+
+/** General Style Info **/
+body {
+//*	background: #CCFFFF ; **/
+	color: #fff;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	font-size:90%;
+	margin: 0;
+}
+/** Layout **/
+#container {
+	width: auto;
+	text-align: left;
+}
+#header{
+	padding: 10px 20px;
+	text-align: center;
+}
+#header h1 a {
+	color: #fff;
+	background: #99FFFF;
+	font-weight: normal;
+	text-decoration: none;
+}
+#content{
+	background: #fff;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;
+}
+#footer {
+	clear: both;
+	padding: 6px 10px;
+	text-align: right;
+}
+/** Forms **/
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	width: 95%;
+}
+
+.checkbox
+{
+float: left;
+width: auto;
+padding-right: 30px;
+}
+.input radio
+{
+float: center;
+clear: both;
+padding-right: 50px;
+}
+.input text
+{
+float: left;
+margin: 0;
+}
+.input select
+{
+float: left;
+margin: 0;
+}
+.submit
+{
+align: center;
+padding-right: 30px;
+}
+.header
+{
+text-align: left;
+}

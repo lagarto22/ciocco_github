@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		CakePHP: the rapid development php framework:		Pedidos	</title>
+	
+<style>
+	.checkbox
+{
+float: left;
+padding-right: 15px;
+}
+</style<
+	</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1><a href="http://Lagarto22.dyndns.info">Lagarto22</a></h1>
+		</div>
+		<div id="content">
+
+			
+			HERNAN
+<form action="/ciocco/pedidos/add" id="PedidoAddForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST" /></div><fieldset>
+<legend>Agregar Pedido</legend>
+<input type="hidden" name="data[Pedido][fecha]" value="2012-10-05" id="PedidoFecha" /><div class="input radio"><fieldset><legend>Medida</legend><input type="radio" name="data[Pedido][medida]" id="PedidoMedida1" value="1"  /><label for="PedidoMedida1">1/4</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida2" value="2"  /><label for="PedidoMedida2">1/2</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida3" value="3"  /><label for="PedidoMedida3">3/4</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida4" value="4" checked="checked"  /><label for="PedidoMedida4">Kilo</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida5" value="5"  /><label for="PedidoMedida5">Kilo y 1/4</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida6" value="6"  /><label for="PedidoMedida6">Kilo y 1/2</label><input type="radio" name="data[Pedido][medida]" id="PedidoMedida7" value="7"  /><label for="PedidoMedida7">Kilo y 3/4</label></fieldset></div><div class="input select"><label for="PedidoDetalle">Detalle</label><input type="hidden" name="data[Pedido][detalle]" value="" id="PedidoDetalle" />
+
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="1" id="PedidoDetalle1" /><label for="PedidoDetalle1">Frutiila</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="2" id="PedidoDetalle2" /><label for="PedidoDetalle2">Anana</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="3" id="PedidoDetalle3" /><label for="PedidoDetalle3">Chocolate</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="4" id="PedidoDetalle4" /><label for="PedidoDetalle4">Granizado</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="5" id="PedidoDetalle5" /><label for="PedidoDetalle5">Vainilla</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="6" id="PedidoDetalle6" /><label for="PedidoDetalle6">Cereza</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="7" id="PedidoDetalle7" /><label for="PedidoDetalle7">Dulce de Leche</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="8" id="PedidoDetalle8" /><label for="PedidoDetalle8">Sambayon</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="9" id="PedidoDetalle9" /><label for="PedidoDetalle9">Mascarpone</label></div>
+<div class="checkbox"><input type="checkbox" name="data[Pedido][detalle][]" value="10" id="PedidoDetalle10" /><label for="PedidoDetalle10">Almendrado</label></div>
+</div><div class="input text"><label for="PedidoCantidad">Cantidad</label><input name="data[Pedido][cantidad]" type="text" maxlength="2" id="PedidoCantidad" /></div><div class="input text"><label for="PedidoPrecio">Precio</label><input name="data[Pedido][precio]" type="text" maxlength="3" id="PedidoPrecio" /></div><div class="input text"><label for="PedidoCambio">Cambio</label><input name="data[Pedido][cambio]" type="text" maxlength="3" id="PedidoCambio" /></div><input type="hidden" name="data[Pedido][usuario]" value="HERNAN" id="PedidoUsuario" />
+</fieldset>
+<div class="submit"><input type="submit" value="Confirmar Pedido" /></div></form><br />
+<a href="/ciocco/pedidos">Listar todas las Tareas</a><br />
+<a href="/ciocco/users/logout">Logout</a>
+
+
+<!-- <a href="/ciocco/pedidos/index/hecha">Listar Tareas Hechas</a><br />
+<a href="/ciocco/pedidos/index/pendientes">Listar Tareas Pendientes</a><br /> -->
+
+<!-- echo $form->input('detalle', array('type' => 'radio',
+	'options' => array('1'=>'Frutiila','2'=>'Anana', '3'=>'Chocolate' ,'4'=>'Granizado', '5'=>'Vainilla', '6'=>'Cereza', '7'=>'Dulce de Leche', '8'=>'Sambayon', '9'=>'Mascarpone' , '10'=>'Almendrado')
+	 )
+	 ); --> 
+
+
+
+
+
+		</div>
+		<div id="footer">
+			<a href="/ciocco/pedidos/add/target:_blank">/ciocco/pedidos/add/target:_blank</a>		</div>
+	</div>
+	<table class="cake-sql-log" id="cakeSqlLog_1349461770506f270ace1e89_90838798" summary="Cake SQL Log" cellspacing="0" border = "0"><caption>(default) 3 queries took 17 ms</caption>	<thead>
+		<tr><th>Nr</th><th>Query</th><th>Error</th><th>Affected</th><th>Num. rows</th><th>Took (ms)</th></tr>
+	</thead>
+	<tbody>
+	<tr><td>1</td><td>SHOW FULL COLUMNS FROM `pedidos`</td><td></td><td style = "text-align: right">11</td><td style = "text-align: right">11</td><td style = "text-align: right">9</td></tr>
+<tr><td>2</td><td>SELECT CHARACTER_SET_NAME FROM INFORMATION_SCHEMA.COLLATIONS WHERE COLLATION_NAME= &#039;latin1_swedish_ci&#039;;</td><td></td><td style = "text-align: right">1</td><td style = "text-align: right">1</td><td style = "text-align: right">1</td></tr>
+<tr><td>3</td><td>SHOW FULL COLUMNS FROM `users`</td><td></td><td style = "text-align: right">7</td><td style = "text-align: right">7</td><td style = "text-align: right">7</td></tr>
+	</tbody></table>
+	</body>
+</html>
